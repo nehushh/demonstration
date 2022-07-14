@@ -21,7 +21,7 @@ public class SubCategory {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private String id;
+	private String subCategoryId;
 	private String name;
 	
 	private String categoryId;
